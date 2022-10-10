@@ -2,16 +2,16 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "Build with GCC",
+            "label": "Build with G++-10",
             "command": "/usr/bin/g++-10",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
                 "-std=c++20",
                 "-std=gnu++20",
-                "${file}",
+                "${workspaceFolder}/*.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${workspaceFolder}/rooster"
             ],
             "options": {
                 "cwd": "${fileDirname}"
