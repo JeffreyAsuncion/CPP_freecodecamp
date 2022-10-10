@@ -4,6 +4,9 @@ environemnt WSL Ubuntu VSCode
 
 install
 sudo apt install gcc g++
+sudo apt install gcc-10
+sudo apt install g++-10
+sudo apt install gdb
 
 to compile
 g++ -std=c++2a <filename>.cpp
