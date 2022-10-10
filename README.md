@@ -80,3 +80,15 @@ second_number--->  |               |
 
 
 3.6 InputOutput
+
+stream                      Purpose
+
+std::cout                   Print data to the console (terminal)
+std::cin                    Reading data from the terminal
+std::cerr                   Printing errors to the console
+std::clog                   Printing log messages to the console
+
+    std::getline(std::cin, full_name);
+
+
+3.7 2:50:02
