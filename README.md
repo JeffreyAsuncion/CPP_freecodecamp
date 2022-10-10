@@ -17,5 +17,11 @@ to execute
 
 https://stackoverflow.com/questions/66975491/how-to-use-c-20-in-g
 
+to setup each program
+- open in folder with 
+    > code . 
+- not in main directory
+- this is to be able to run and debug
+
 
 1:45:05
