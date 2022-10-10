@@ -26,4 +26,57 @@ to setup each program
 
 1:45:05
 
-2:13:10 3.4
+3.2 FirstCCPProgram
+===================
+
+
+3.3 Comments
+==============
+// Comments out a single ine
+
+/* ... */ //Block Comments out a block of text
+
+/*
+    Block comments
+    can't be
+    nested
+    It breaks the code 
+*/
+
+// Use Comments to document your code. Don't overdo it though.
+
+
+3.4 ErrorsAndWarnings
+=====================
+
+/*
+
+Compile Time Errors
+
+Runtime Errors
+
+Warnings
+
+*/
+
+
+2:13:10 
+
+3.5 Statements and Functions
+
+- a statement is a basic unit of comuputation in a C++ program
+- Every C++ program is a colletion of statements organized in a certain way to achieve some goal
+- Statements end with a semicolon in C++ (;)
+
+
+- Statements are executed in order from top to bottom when the program is run
+- Execution keeps going until there is a statement causing the program to terminate, or run another sequence of statements
+
+                    ---------------
+first_number --->  |               |
+                   |   function    | ---> sum
+second_number--->  |               |
+                    ---------------
+
+
+3.6 InputOutput
