@@ -91,4 +91,67 @@ std::clog                   Printing log messages to the console
     std::getline(std::cin, full_name);
 
 
-3.7 2:50:02
+2:50:02
+
+C++ Program Execution Model and Memory Model
+
+2:56:47
+
+C++ core language VS Standard library VS STL
+
+Core features
+- defining var and function rules
+
+Standard libarary
+- ready to use highly specialized components that we can easily use in our C++ programs
+- iostream
+- string
+
+STL
+- part of the C++ standard library but it is a collection of container types think of them as collection of things
+- and we have a set of types allow us to store collections we have algorithms or functions that work on these collections
+- we have specialized types called iterators that allow us to navigate through these containers
+- potentially running these algorithms on each element in the collection
+
+
+3:00:53
+
+Variables and Data Types
+
+int main(){}    Entry Point     Statements      Functions
+Errors          Warnings        Input           Output
+Commnets        Dev Workflow    Memory Model    Execution Model
+
+main() function is the entry point of our program
+program is made up of statements and functions
+you know about Errors and warnings
+you have an idea of how to handle input and output from our program
+you can use comments
+you know about the memory model and the execution model
+
+
+C++ data types
+
+int     double      float       char
+bool    void        auto        ...
+
+Number systems
+- binary
+- octal
+- hexadecimal
+
+3:05:07
+
+4.2 Number Systems
+
+int number1 = 15; //Decimal
+int number2 = 017; //Octal
+int number3 = 0x0f; //Hexadecimal
+int number4 = 0b00001111; //Binary - C++14
+
+- All data is represented by a bunch of grouped cells of 0's and 1's in memory
+- As the range of your data grows, so will the number of digits you need to represent the data in memory
+- Hexadecimal system makes it a little easier for humans to handle streams fo data with 1's and 0's
+- Octal has the same goal as Hexadecimal, but it's almost no longer used in modern times. It's just mentioned here for your awareness
+
+
