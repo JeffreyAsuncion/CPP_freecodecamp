@@ -360,4 +360,8 @@ that either as a character or a regular integral value
 
 
 
+4.8 Auto Keyword
+
+auto -->> Let the compiler deduce the type
+
 
