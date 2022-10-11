@@ -405,3 +405,17 @@ using () to indicate which operations you want done first
 
 
 The readability of your code is something that you should strive for
+
+
+
+5.4 Prefix and Postfix Increment / Decrement
+========================================
+- Prefix and Postfix Increment / Decrement operators are cool.
+- But they only increment by one, what if we need to increment by a value 
+    other than 1, say 5 or 7. We'll see a way to do that in the next lecture
+- There is no value** or **value, or //value or value//. They don't make
+    sense, these prefix/postfix operators are only avaiable for + and -, again
+    because that's were they make sense
+
+
+
