@@ -365,3 +365,15 @@ that either as a character or a regular integral value
 auto -->> Let the compiler deduce the type
 
 
+
+4.9 Assignment
+
+    // Auto type deduction
+    // Careful about auto assignments
+    auto var3 {333u};   // Declare and initialize with type deduction
+
+    var3 = -22;         // Assign negative number. DANGER!!!
+
+    std::cout << "var3 : " << var3 << std::endl; // HUH? 4294967274
+
+
