@@ -378,7 +378,7 @@ auto -->> Let the compiler deduce the type
 
 
 
-5.1 Operation on data
+5.2 Operation on data
 
 add         subtract        divide
 modulus     decrement       multiply
@@ -391,4 +391,17 @@ Basic Operations
 add     subtract        divide
 modulus     mutiply
 
+5.3 Precedence and associativity
 
+a + b * c - d / e - f + g
+
+Precedence : which operation to do first
+Associativity : which direction or which order ( from left or from right)
+
+https://en.cppreference.com/w/cpp/language/operator_precedence
+
+It is better to make the intent in your code as clear as possible by clearly 
+using () to indicate which operations you want done first
+
+
+The readability of your code is something that you should strive for
