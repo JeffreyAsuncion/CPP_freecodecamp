@@ -337,3 +337,27 @@ NOTE
     more about these in a few upcoming chapters
 
 they take up 1 byte in memory
+
+
+4.7 Characters and Text
+
+1 byte : 256 Possible values
+Each matched to come character
+
+https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+
+It is possible to assign a valid ACSII code to a char variable, and the
+corresponding character will be stored in. You can choose to interpret
+that either as a character or a regular integral value
+
+- ASCII was among the first encodings to represent text in a computer.
+- It fall short when it come to representing languages other than English and a few
+    western languages.  Think Arabic, East Asian Languages like Japanese, Chineses ,...
+- There are better ways to represent text that is meant to be seen in different
+    languages, one of the most common being Unicode
+- The details fo Unicode are out of scope of this course, just know that it's a robust
+    way to represent text in different languages for a computer
+
+
+
+
