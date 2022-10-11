@@ -377,3 +377,18 @@ auto -->> Let the compiler deduce the type
     std::cout << "var3 : " << var3 << std::endl; // HUH? 4294967274
 
 
+
+5.1 Operation on data
+
+add         subtract        divide
+modulus     decrement       multiply
+Built in utilities
+Formatting   increment
+
+
+Basic Operations
+
+add     subtract        divide
+modulus     mutiply
+
+
