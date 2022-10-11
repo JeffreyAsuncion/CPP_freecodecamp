@@ -232,4 +232,6 @@ Declaring a variable
 typename variable_name {initializer_value};
 
 
+3:54:01
+4.5 Fractional Number
 
