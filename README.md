@@ -422,3 +422,11 @@ The readability of your code is something that you should strive for
 5.5 Compound Operators
 ======================
 
+5.6 Relational Operators
+========================
+
+5.7 Logical Operators
+=====================
+
+5.8 Output Formatting 5:56:10
+=====================
