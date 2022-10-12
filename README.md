@@ -435,3 +435,6 @@ The readability of your code is something that you should strive for
 
 5.10 Math Function 6:41:13
 
+5.11 Weird Integral Types - char/short int
+
+5.12 Operations on data
