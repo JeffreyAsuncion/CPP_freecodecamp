@@ -428,5 +428,7 @@ The readability of your code is something that you should strive for
 5.7 Logical Operators
 =====================
 
-5.8 Output Formatting 5:56:10
+5.8 Output Formatting
 =====================
+
+5.9 Numberic Limits 6:33:28
