@@ -56,7 +56,22 @@ int main(){
     for (size_t j{}; j < COUNT; ++j){
         std::cout << "The value of j is : " << j << std::endl;
     }
+    //========================================================
+    // Array Declaration : Omit size
+
+    // Omit the size of the array at declaration
+    int class_sizes[] {10,12,15,11,18,17};
+    
+    // range based for loop
+    // - don't have to setup an iterator, initalize it, do the increment
+    // - just read values and be on our merry way
+    for (auto value : class_sizes) {
+        std::cout << "value : " << value << std::endl;
+    }
+    //==============================================
+
     return 0;
+
 }
 
 /*

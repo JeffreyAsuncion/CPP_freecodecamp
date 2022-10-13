@@ -517,6 +517,25 @@ size_t -->> unsigned int
 size_t : Not a type, just a type alias for some unsigned int representation
 
 
+    //========================================================
+    // Array Declaration : Omit size
+
+    // Omit the size of the array at declaration
+    int class_sizes[] {10,12,15,11,18,17};
+    
+    // range based for loop
+    // - don't have to setup an iterator, initalize it, do the increment
+    // - just read values and be on our merry way
+    for (auto value : class_sizes) {
+        std::cout << "value : " << value << std::endl;
+    }
+    //==============================================
+
+
+
+
+
+
 11.3 While Loop
 
 
@@ -548,4 +567,19 @@ Pillars of any loop
 - Loop Body
 
 
-Arrays
+
+
+12.2 12.2 Declaring and Using Arrays
+
+Array contruct -->> collection of the same type
+
+Array are the way to set up collections in C++
+
+
+Declaring and Using Arrays
+
+Array Bounds
+
+// Reading past bounds of your array : BAD!
+// It's going to read out something you didn't put there.
+
