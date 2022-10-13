@@ -485,5 +485,38 @@ Ternary Expression
 result = (condition) ? option1 : option2 ;
 
 
+11.2ForLoop
+
+- For Loop
+- Range based for loop
+- While Loop
+- Do While Loop
+
+
+For Loop
+
+
+    // for loop
+    for (unsigned int i{}; i < 10; ++i){
+        std::cout << "I love C++!" << std::endl;
+    }
+
+Pillars of any loop
+-------------------
+- Iterator -->> the variable that navigates thru the  loop ( i )
+- Starting Point
+- Test ( controls when the loop stops )
+- Increment (Decrement)
+- Loop Body
+
+
+Iterator type
+
+size_t -->> unsigned int
+
+size_t : Not a type, just a type alias for some unsigned int representation
+
+
+
 
 
