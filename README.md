@@ -536,4 +536,16 @@ Pillars of any loop
     }
     std::cout << "Loop Done!!!" << std::endl;
 
+11.4 Do While loop
 
+Do While Loop -->> Runs the body then Checks (TEST or CONDITION)
+
+Pillars of any loop
+- Iterator
+- Starting Point
+- Test ( Controls when the loop stops )
+- Increment(Decrement)
+- Loop Body
+
+
+Arrays
