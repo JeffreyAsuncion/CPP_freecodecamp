@@ -457,9 +457,24 @@ Flow Control : Conditional Programming 7:02:08
 
 10.2 If statement
 
-10.2 ElseIf
+10.3 ElseIf
 Testing for several different conditions
 
+10.4 
+Switch Statement
+
+Testing for several different condition
+but more compact than if else if
+
+Break Statement
+
+The break statement after each case is very important.  It stops
+processing the switch block when a successful case has been found.  
+if the break statement is not there, all the cases following 
+the current case will be executed.
+
+condition CAN NOT be a string?!@#! check this fact!!
+Integral types and enums: int, long unsigned short, ect
 
 
 
