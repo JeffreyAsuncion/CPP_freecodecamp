@@ -451,9 +451,15 @@ Operations on Data
 5.11    Weird Integral Types
 
 
-Chapter 6
+Chapter 10
 
 Flow Control : Conditional Programming 7:02:08
 
-6.2 If statement
+10.2 If statement
+
+10.2 ElseIf
+Testing for several different conditions
+
+
+
 
