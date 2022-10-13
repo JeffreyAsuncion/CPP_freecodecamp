@@ -476,5 +476,14 @@ the current case will be executed.
 condition CAN NOT be a string?!@#! check this fact!!
 Integral types and enums: int, long unsigned short, ect
 
+10.5 Ternary Operator 7:42:47
+
+Ternary Operator
+
+Ternary Expression
+
+result = (condition) ? option1 : option2 ;
+
+
 
 
