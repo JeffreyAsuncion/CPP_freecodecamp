@@ -437,4 +437,23 @@ The readability of your code is something that you should strive for
 
 5.11 Weird Integral Types - char/short int
 
-5.12 Operations on data
+Operations on Data
+5.1     Introduction
+5.2     Basic Operations
+5.3     Precedence and Associativity
+5.4     Prefix and Postfix Increment-Decrement
+5.5     Compound Assignment Operators
+5.6     Relational Operators
+5.7     Logical Operators
+5.8     Output Formatting
+5.9     Numeric Limits
+5.10    Math Functions
+5.11    Weird Integral Types
+
+
+Chapter 6
+
+Flow Control : Conditional Programming 7:02:08
+
+6.2 If statement
+
