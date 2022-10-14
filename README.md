@@ -606,3 +606,6 @@ Three different ways
     for (size_t i{0}; i < std::size(scores); ++i){
         std::cout << "scores[" << i << "] : " << scores[i] << std::endl;
     }
+
+
+12.4 Arrays of Character 9:26:45
