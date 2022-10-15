@@ -612,6 +612,8 @@ Three different ways
 
 // Bounds Of an array
 
+Read beyond bounds : Will read garbage or crash your program
+
     // Array bounds
     /*
     int numbers [] {1,2,3,4,5,6,7,8,9,0};
@@ -627,5 +629,7 @@ Three different ways
     std::cout << "numbers[12] : " << numbers[12] << std::endl;
 
 
-Pointer 9:53:31
+13.2 Declaring and Assigning Pointer 9:53:31
+
+13.3 Pointer to Char 10:14:49
 
